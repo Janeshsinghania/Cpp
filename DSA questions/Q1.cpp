@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     vector<string> str = {"janesh", "jan","james"};
-    sort(str.begin(),str.end());
+    sort(str.begin(),str.end()); //sorting 
     int a = str.size();
     string n = str[0];
     string m = str[1];
